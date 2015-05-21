@@ -8,7 +8,7 @@ this.setSuper(x, y);
         me.game.viewport.follow(this.pos, me.game.viewport.AXIS.BOTH);
         this.addAnimation();
         this.renderable.setCurrentAnimation("idle");
-      },
+      }, 
       
         setSuper: function(x, y) {
         this._super(me.Entity, 'init', [x, y, {

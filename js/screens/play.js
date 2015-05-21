@@ -5,8 +5,8 @@ game.PlayScreen = me.ScreenObject.extend({
     onResetEvent: function() {
         // reset the score
         game.data.score = 0;
-
-        me.levelDirector.loadLevel("level01");
+        //nathan place your level here
+        me.levelDirector.loadLevel("");
         //the position were the player respawns
         this.resetPlayer(0, 420);
         
@@ -36,7 +36,7 @@ game.PlayScreen = me.ScreenObject.extend({
         this.HUD = new game.HUD.Container();
         me.game.world.addChild(this.HUD);
     },
-    /**
+    /*
      *  action to perform when leaving this screen (state change)
      */
     onDestroyEvent: function() {

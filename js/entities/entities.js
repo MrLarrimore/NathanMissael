@@ -32,7 +32,7 @@ this.setSuper(x, y);
         
         setAttributes: function() {
         this.health = game.data.playerHealth;
-                this.body.setVelocity(game.data.playerMoveSpeed, 20);
+                this.body.setVelocity(game.data.playerMoveSpeed, 25);
                 this.attack = game.data.playerAttack;
         },
         
